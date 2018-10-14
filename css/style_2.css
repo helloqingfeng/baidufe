@@ -1,0 +1,49 @@
+body{
+	font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+	background-color: #000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrap{
+	width: 70%;
+	margin: 0 auto;
+	line-height: 2em;
+}
+
+.left{
+	float: left;
+	width: 280px;
+	text-align: center;
+	padding: 50px 20px;
+	background-color: #3F8EF9;
+}
+
+.content{
+	margin-left: 280px;
+	background-color: #FFFFFF;
+	padding:50px;
+}
+
+.left,.content{
+	height: 100%;
+	min-height: 1000px;
+	box-sizing: border-box;
+}
+
+.info p{
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.info span{
+	font-weight: 800;
+}
+
+h1,h2{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}

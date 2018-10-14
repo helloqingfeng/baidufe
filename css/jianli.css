@@ -1,0 +1,50 @@
+body{
+	font-family:'Ubuntu','Open Sans','Mali', 'K2D',"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+h1{
+	font-size: 36px;
+	color: blue;
+	text-align: center;
+	text-shadow:2px 2px 10px coral;
+}
+
+.content{
+	width: 90%;
+	max-width: 960px;
+	border: 1px solid red;
+	padding: 10px 50px;
+	margin: 5px auto 20px;
+	background-color:#F8F9F9;
+}
+
+p{
+	color:#67C23A;
+	line-height: 2em;
+}
+
+p span{
+	font-size: 20px;
+	font-weight: bolder;
+	color:#F56C6C;
+}
+
+section{
+	margin: 10px 0px 30px;
+}
+
+section > p{
+	margin: 10px 0;
+}
+
+a:link{
+
+}
+
+a:visited{
+
+}
+
+a:active{
+
+}

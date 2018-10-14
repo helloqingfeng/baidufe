@@ -1,0 +1,35 @@
+body{
+	font-family:'Ubuntu','Open Sans',"Helvetica Neue",Helvetica,"Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.content{
+	width: 80%;
+	max-width: 960px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	background:pink;
+	padding: 20px 30px 50px;
+	height: 100%;
+	min-height: 1000px;
+}
+
+h2{
+	margin-bottom: 8px;
+}
+
+h4{
+	margin: 5px 0;
+}
+
+p{
+	margin: 5px 0 10px;
+}
+
+.info p{
+	display: inline-block;
+	margin-right: 3%;
+}
+
+.info span{
+	font-weight: bolder;
+}

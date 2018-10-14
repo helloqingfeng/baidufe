@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>相对参照元素进行定位</title>
+<style type="text/css">
+div{
+	border:5px red solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+#box1{
+    width:200px;
+    height:200px;
+    position:relative;
+
+}
+#box2{
+ 	position:absolute;
+	bottom:10px;
+	left:10px;
+
+}
+/*下面是任务部分*/
+#box3{
+    width:200px;
+    height:200px;
+    position:relative;
+
+}
+#box4{
+    width:190px;
+    position:absolute;
+    left:-10px;
+    bottom:-68px;
+    border:5px black solid;
+}
+</style>
+</head>
+
+<body>
+<div id="box1">
+	<div id="box2">相对参照元素进行定位</div>
+</div>
+
+<h1>下面是任务部分</h1>
+<div id="box3">
+    <img src="http://img.mukewang.com/541a7d8a00018cf102000200.jpg">
+    <div id="box4">当我还是三年级的学生时是一个害羞的小女生。</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单Document</title>
+</head>
+<body>
+	<form method="post" action="http://www.baidu.com">
+		<p><label>账号：</label>
+			<input type="text" name="username" placeholder="请输入用户名" autofocus required minlength="2">
+		</p>
+		<p><label>密码：</label><input type="password" name="pasword" placeholder="请输入密码"></p>
+		<p>
+			<input type="submit" name="" value="提交">
+			<br>
+			<input type="reset" name="" value="重置">
+			<button type="button">确定</button>
+		</p>
+			<p><label>性别：</label><br>
+				<input type="radio" name="sex" value="male">男性<br>
+				<input type="radio" name="sex" value="female">女性
+			</p>
+			<p><label>车型：</label>
+				<input type="checkbox" name="">宝马
+				<input type="checkbox" name="">奥迪
+				<input type="checkbox" name="">法拉利
+			</p>
+			<textarea cols="40" rows="10"></textarea>
+			<div>
+				<select name="fruit">
+					<option value="1">苹果</option>
+					<option value="2">芒果</option>
+					<option value="3">蜜桃</option>
+					<option value="4">葡萄</option>
+					<option value="5">香蕉</option>
+				</select>
+			</div>
+			<div>
+				<label>您的邮箱：<input type="email" name="email"></label>
+				<br>
+				<label>百度搜索：<input type="search" id="search" name="search"></label>
+				<br>
+				<label>您的号码：<input type="tel" name="tel" id="tel"></label>
+				<br>
+				<label>您的博客：<input type="url" id="url" name="url"></label>
+				<br>
+				<select id="groups" name="groups">
+					<optgroup label="fruits">
+						<option>Banana</option>
+						<option selected>Cherry</option>
+						<option>Lemon</option>
+					</optgroup>
+					<optgroup label="vegetables">
+						<option>Carrot</option>
+						<option>Eggplant</option>
+						<option>Potato</option>
+					</optgroup>
+				</select>
+			</div>
+		</form>
+
+	</body>
+	</html>

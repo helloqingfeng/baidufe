@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+.aside{
+	width: 200px;
+	height: 1000px;
+	background-color: #3F8EF9;
+	float: left;
+	text-align: center;
+	padding: 75px 20px 50px;
+	box-sizing: border-box;
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+.title{
+	font-size: 28px;
+	font-weight: bold;
+	margin-top:25px;
+	margin-bottom: 10px;
+}
+
+.main{
+	background-color: gray;
+	margin-left: 200px;
+	height: 1000px;
+	padding: 50px 30px;
+	box-sizing: border-box;
+}
+
+.num1 p{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.num1 span{
+	font-weight: bold;
+}
+.num2 span{
+	font-weight: bold;
+	display: block;
+	margin: 10px 0 5px;
+}

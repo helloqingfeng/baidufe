@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 20px;
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.aside{
+	font-size: 1.8em;
+	font-weight: bolder;
+	padding: 20px;
+}
+
+.title{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 10px 20px 10px;
+}
+
+.detail{
+	padding: 0 20px;
+}
+
+.num1 p{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+span{
+	font-weight: bolder;
+}
+
+.num2 span{
+	display: block;
+}
