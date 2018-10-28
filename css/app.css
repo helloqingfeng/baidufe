@@ -120,7 +120,7 @@ button{
 	flex-wrap: wrap;
 }
 .secwrap{
-	padding: 50px 2px;
+	padding: 50px 0 10px;
 	margin: 20px 0 0;
 }
 .panel{
@@ -231,7 +231,7 @@ button{
 
 /*第四部分*/
 .main-four{
-	height: 500px;
+	height: 450px;
 }
 .main-four div h1{
 	padding: 30px;
