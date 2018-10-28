@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.wrap-center{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+	/*border-bottom: 1px solid gray;*/
+}
+hr.hr-line{
+	max-width: 1600px;
+	border: none;
+	border-top: 1px solid #dbdada;
+	margin: 0 auto;
+}
+
+body{
+	font-size: 16px;
+	font-family: "微软雅黑",'Montserrat',sans-serif;
+}
+.topimg{
+	width: 100%;
+	max-width: 1600px;
+	height: auto;
+	min-height: 900px;
+	margin: 0 auto;
+	background-image: url(../image/header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	background-image: url(../image/Background.png);
+	height: 900px;
+}
+.topbox h1{
+	font-size: 3em;
+	color: white;
+	padding-top: 10%;
+	padding-bottom: 80px;
+	font-family: "Montserrat";
+	line-height: 1.5;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.topbox p{
+	line-height: 1.5;
+	text-align: center;
+}
+
+.topbox img{
+	max-width: 100%;
+	opacity: 1;
+}
+
+.formbox{
+	background-color: transparent;
+	border: 1px solid gray;
+	width: 60%;
+	margin: 50px auto;
+	height: 200px;
+	/*position: absolute;
+	bottom: 200px;
+	left: 20%;*/
+}
+.formbox p:first-child{
+	padding: 15px;
+	margin: 30px 0 10px;
+	color: #fff;
+}
+.sign-in{
+	display: flex;
+	width: 60%;
+	align-items: center;
+	margin: 20px auto;
+	justify-content: space-between;
+}
+.sign-item{
+	flex-grow: 2;
+	width: 33%;
+	height: 40px;
+	border: 1px solid black;
+	margin-right: 10px;
+	background-color: transparent;
+	color: white;
+}
+
+button{
+	height: 40px;
+	margin-right: 0;
+	flex-grow: 1;
+}
+
+.secbody{
+	padding-top: 20px;
+}
+.sectitle{
+	font-size: 1.2em;
+	line-height: 2em;
+	text-align: center;
+	padding: 15px;
+}
+.sectext{
+	font-size: 2em;
+	text-align: center;
+	width: 18em;
+	margin: 0 auto;
+}
+.secpanel{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.secwrap{
+	padding: 50px 2px;
+	margin: 20px 0 0;
+}
+.panel{
+	width: 45%;
+	/*flex-grow: 1;*/
+	padding-bottom: 50px;
+}
+
+.panel-img{
+	float: left;
+	margin-right: 20px;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+}
+.panel-body{
+	/*display: inline-block;*/
+	overflow: hidden;
+}
+.panel-title{
+	font-size: 1.4em;
+	font-weight: 400;
+	margin: 10px 0 20px;
+	height: 30px;
+}
+.panel-text{
+	font-weight: 200;
+	margin-top: 20px;
+	width: 22em;
+}
+
+/*第三部分*/
+.artback{
+	width: 100%;
+	max-width: 1600px;
+	background: url(../image/img2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	margin: 0 auto;
+}
+.artcontent{
+	background: url(../image/Back2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*opacity: 0.6;*/
+	height: 800px;
+}
+.artpanel{
+	float: left;
+	width: 500px;
+	margin-left: 300px;
+	margin-top: 155px;
+}
+.artpanel div{
+	width: 400px;
+	margin: 50px 30px 30px 0;
+}
+.artpanel h2{
+	font-size: 42px;
+	font-family: "Montserrat";
+	width: 10em;
+	font-weight: 100;
+	color: white;
+	line-height: 1.2em;
+}
+.artpanel p{
+	font-size: 18px;
+	font-family: "Montserrat";
+	font-weight: 100;
+	width: 20em;
+	line-height: 1.5em;
+	color: white;
+	padding: 20px 0;
+}
+.btn{
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	width: 240px;
+	height: 60px;
+	background-color: white;
+}
+.btn-primary{
+	color: black;
+	margin-right: 20px;
+}
+.btn-info{
+	color: white;
+	background-color: transparent;
+	border: 1px solid gray;
+}
+.artimg{
+	position: relative;
+	float: right;
+	margin-top: 98px;
+}
+.ipad{
+	position: absolute;
+	right: 0;
+}
+.screen{
+	position: absolute;
+	right: 0;
+	top: 29px;
+	z-index: 222;
+}
+
+/*第四部分*/
+.main-four{
+	height: 500px;
+}
+.main-four div h1{
+	padding: 30px;
+}
+
+.four-box{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.four-item{
+	width: 28%;
+}
+.four-img{
+padding: 15px;
+}
+.four-text{
+	width: 16em;
+}
+
+
+.five-box{
+	margin-top: 20px;
+}
+.five-item{
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.five-img{
+	width: 570px;
+	display: inline-block;
+}
+
+.five-text{
+	width: 300px;
+	display: inline-block;
+	padding-top: 70px;
+}
+
+.five-text h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.five-text p{
+	color: gray;
+}
+
+.f-left{
+	float: left;
+	margin-right: 90px;
+	overflow: hidden;
+}
+
+
+/*第六部分*/
+.six-text{
+	/*height: 200px;*/
+	box-sizing: border-box;
+	/*margin: 20px 0;*/
+	padding: 30px 0 50px;
+}
+
+.six-text h2{
+	font-size: 35px;
+	line-height: 30px;
+	padding: 20px;
+}
+.six-text p{
+	width: 450px;
+	margin: 10px auto;
+}
+.six-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.media{
+	/*display: inline-block;*/
+	width: 470px;
+	height: 340px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.media-body{
+	background-image: url(../image/Back3.png);
+	width: 470px;
+	height: 340px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	color: white;
+	box-sizing: border-box;
+	padding-top: 100px;
+	/*overflow: hidden;*/
+}
+
+.media-body span{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.media-body:hover{
+	opacity: 1;
+}
+
+
+/*第七部分*/
+.seven-wrap{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*background-color: pink;*/
+}
+.message{
+	width: 470px;
+	float: left;
+	margin: 50px 0;
+	padding-right: 80px;
+}
+fieldset{
+	padding: 30px 0;
+	border: 1px solid gray;
+}
+.mess-item{
+	width: 80%;
+	height: 40px;
+	display: block;
+	margin: 20px auto;
+}
+
+.message textarea{
+	height: 150px;
+	max-width:400px;
+	resize: none;
+}
+
+.message button{
+	background-color: black;
+	color: white;
+	border: 1px solid gray;
+}
+
+.contact{
+	display: inline-block;
+	width: 400px;
+	padding-top: 60px;
+	margin-top: 50px;
+	/*overflow: hidden;*/
+	/*padding-left: 30px;*/
+}
+.con-body{
+	margin-bottom: 30px;
+}
+.con-body h2{
+	font-size: 30px;
+	padding: 10px 0;
+}
+.flex-two{
+	display: flex;
+}
+.flex-item{
+	padding: 10px;
+}
+
+.flex-two div:first-child{
+	width: 15px;
+}
+
+/*第八部分*/
+footer{
+	display: flex;
+	width: 100%;
+	max-width: 1600px;
+	height: 400px;
+	background-color: black;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 100px 150px 50px;
+	justify-content: space-around;
+}
+.foot-item{
+	width: 15%;
+	color: white;
+}
+.foot-item p{
+	font-size: 18px;
+	line-height: 18px;
+	word-spacing: 10px;
+	margin-bottom: 15px;
+}
+.foot-item ul{
+	list-style: none;
+}
+.foot-item li{
+	line-height: 20px;
+	padding: 12px 5px;
+
+}
+.foot-item li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #646464;
+}
