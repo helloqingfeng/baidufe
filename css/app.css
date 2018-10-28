@@ -31,7 +31,7 @@ body{
 	height: auto;
 	min-height: 900px;
 	margin: 0 auto;
-	background-image: url(../image/header.png);
+	background-image: url(../image/header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -156,7 +156,7 @@ button{
 .artback{
 	width: 100%;
 	max-width: 1600px;
-	background: url(../image/img2.png);
+	background: url(../image/img2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 800px;

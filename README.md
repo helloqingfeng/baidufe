@@ -1,4 +1,10 @@
-百度前端学院任务练习
+## 百度前端学院任务练习
+
+# 更新于10.28：
+
+## 静态网页：https://helloqingfeng.github.io/baidufe/index.html
+
+# 更新于10.14：
 
 ## 简历一：https://helloqingfeng.github.io/baidufe/resume3.html
 
